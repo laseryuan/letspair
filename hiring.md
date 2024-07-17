@@ -3,18 +3,22 @@ Given the business plan
 # https://ca.indeed.com/q-hiring-tutor-l-vancouver,-bc-jobs.html?vjk=ce8430ab2eb0f2f0
 We are building a small team to kick off the buisness. The project is kind of experimental. 
 We have the job description below for hiring people
-* We are not stric in the working experience
 * Willing to work in a start up environment and gain related experience
 * Preferable having tutoring experience
-* Has progrmming experience
-* Knew about pair programming
 * The job can be internship, full time job or part time job
+* Has some progrmming experience not necessary has working experience in this
+    aspect
+* Knew about pair programming not necessary has working experience in this
+* We are not strict in the working experience
+* We don't need work experience in coding
+    aspect
 
 Please make the job description:
-*
 
 
-**Job Title: Coding Mentor/Developer - Internship, Part-Time, or Full-Time Positions Available**
+---
+
+**Job Title:** Coding Mentor/Developer - Internship, Part-Time, or Full-Time Positions Available
 
 **Company:** Let's Pair - Co-Working & Mentoring in IT Technology
 
@@ -34,11 +38,10 @@ We are looking for enthusiastic and motivated individuals to join our team as Co
 - Participate in coding sessions and projects to ensure a productive and engaging learning environment.
 
 **Qualifications:**
-- Programming experience (knowledge of multiple programming languages is a plus).
-- Familiarity with pair programming and agile software development methodologies.
-- Previous tutoring or mentoring experience is preferred.
+- Previous tutoring or mentoring experience is preferred but not required.
 - Ability to work well in a team and communicate effectively.
 - Open to working in a dynamic start-up environment.
+- Some knowledge of programming experience and/or pair programming (no prior work experience in this aspect is necessary).
 - Passionate about coding and helping others improve their skills.
 
 **Why Join Us?**
@@ -52,7 +55,3 @@ We are looking for enthusiastic and motivated individuals to join our team as Co
 If you are excited about this opportunity and meet the qualifications, please send your resume and a brief cover letter explaining why you are interested in this position to [your email address].
 
 **Let's Pair is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.**
-
----
-
-This job description emphasizes the experimental and collaborative nature of the start-up, highlights the importance of pair programming, and appeals to potential applicants' desire for growth and learning opportunities.
