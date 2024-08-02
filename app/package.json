@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "jest --watchAll",
+    "dev": "node inspect `which jest` --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-dev-server": "^9.0.1",
+    "jest-puppeteer": "^9.0.1",
+    "puppeteer": "^21.3.8"
+  },
+  "dependencies": {
+  }
+}
