@@ -1,10 +1,17 @@
+<!--
+We have images in folder img
+
+The following html is the home page for Let's Pair. It has the following features: 
+* It is a front page
+* There is a trade mark image "logo.jpg" in the header
+* The header has white background and appropriate text color
+
+Please add this feature:
+* The use the logo to replace the title in the header
+
+-->
 
 <!DOCTYPE html>
-
-<!--
-This is a
-multi-line comment
--->
 
 <html lang="en">
 <head>
@@ -19,10 +26,14 @@ multi-line comment
             background-color: #f4f4f4;
         }
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: #fff;
+            color: #333;
             padding: 10px 0;
             text-align: center;
+            position: relative;
+        }
+        header .logo {
+            height: 50px;
         }
         .container {
             width: 80%;
@@ -67,7 +78,7 @@ multi-line comment
 <body>
     <header>
         <div class="container">
-            <h1>Let's Pair</h1>
+            <img src="img/logo.jpg" alt="Let's Pair Logo" class="logo">
             <p>Co-Working & Mentoring in IT Technology</p>
         </div>
     </header>
