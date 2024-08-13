@@ -8,6 +8,7 @@ The following html is the home page for Let's Pair. It has the following feature
 * The use the logo to replace the title in the header
 * Add our address to contact section
 * Add a hiring section contains links to Linkedin and Job bank
+* Mobile friendly
 
 Please add this feature:
 * 
@@ -20,7 +21,7 @@ Please add this feature:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Let's Pair - Co-Working & Mentoring in IT Technology</title>
+    <title>Let's Pair - Mentoring & Co-Working in IT Technology</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -92,6 +93,18 @@ Please add this feature:
             padding: 10px;
             text-align: center;
         }
+        @media (max-width: 768px) {
+            .box {
+                width: 45%;
+                margin-bottom: 20px;
+            }
+        }
+        @media (max-width: 480px) {
+            .box {
+                width: 100%;
+                float: none;
+            }
+        }
         footer {
             background-color: #333;
             color: #fff;
@@ -110,7 +123,7 @@ Please add this feature:
     <header>
         <div class="container">
             <img src="img/logo.jpg" alt="Let's Pair Logo" class="logo">
-            <p>Co-Working & Mentoring in IT Technology</p>
+            <p>Mentoring & Pair-Working in IT Technology</p>
         </div>
     </header>
 
@@ -133,16 +146,16 @@ Please add this feature:
     <section class="container">
         <h2>Our Services</h2>
         <div class="box">
-            <h3>Co-Working Space</h3>
+            <h3>Mentorship</h3>
+            <p>Get guidance from experienced developers and mentors to help you achieve your project goals.</p>
+        </div>
+        <div class="box">
+            <h3>Pair-Working</h3>
             <p>We provide working space for developers and learners to pair up and work together in a work-learn environment.</p>
         </div>
         <div class="box">
             <h3>Coding Bootcamp</h3>
             <p>Join our bootcamp to enhance your coding skills, teamwork, and project management skills with real-life projects.</p>
-        </div>
-        <div class="box">
-            <h3>Mentorship</h3>
-            <p>Get guidance from experienced developers and mentors to help you achieve your project goals.</p>
         </div>
     </section>
 
