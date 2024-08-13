@@ -7,9 +7,10 @@ The following html is the home page for Let's Pair. It has the following feature
 * The header has white background and appropriate text color
 * The use the logo to replace the title in the header
 * Add our address to contact section
+* Add a hiring section contains links to Linkedin and Job bank
 
 Please add this feature:
-*
+* 
 
 -->
 
@@ -45,9 +46,9 @@ Please add this feature:
         .showcase {
             background: #35424a;
             color: #fff;
-            height: 400px;
             text-align: center;
             padding-top: 100px;
+            padding-bottom: 40px;
         }
         .showcase h1 {
             font-size: 55px;
@@ -55,6 +56,31 @@ Please add this feature:
         }
         .showcase p {
             font-size: 20px;
+        }
+        .showcase .hiring {
+            margin-top: 40px;
+        }
+        .showcase .hiring h2 {
+            font-size: 45px;
+            font-weight: bold;
+            color: #ff5733;
+            text-transform: uppercase;
+            border-bottom: 4px solid #ff5733;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .hiring-links {
+            margin-top: 20px;
+        }
+        .hiring-links a {
+            display: inline-block;
+            margin: 0 15px;
+            color: #0073b1;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hiring-links a:hover {
+            text-decoration: underline;
         }
         section {
             padding: 20px 0;
@@ -92,6 +118,15 @@ Please add this feature:
         <div class="container">
             <h1>Coding with Fun</h1>
             <p>Building and working on projects together, pair up to make the process of learning and practice enjoyable.</p>
+            
+            <div class="hiring">
+                <h2>We're Hiring</h2>
+                <p>Looking to join our team? Check out our job openings on LinkedIn and Job Bank:</p>
+                <div class="hiring-links">
+                    <a href="https://www.linkedin.com/jobs/view/3991579086">LinkedIn</a>
+                    <a href="https://www.jobbank.gc.ca/companyprofile.jsp?cid=LETSPAIR">Job Bank</a>
+                </div>
+            </div>
         </div>
     </section>
 
